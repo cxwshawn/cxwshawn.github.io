@@ -5,26 +5,25 @@
     <link>http://cxwshawn.github.io/post/</link>
     <description>Recent content in Posts on programming life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ch-zn</language>
-    <managingEditor>cxwshawn@gmail.com (chen xiaowei)</managingEditor>
-    <webMaster>cxwshawn@gmail.com (chen xiaowei)</webMaster>
-    <lastBuildDate>Sun, 01 May 2016 21:50:48 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <managingEditor>cxwshawn@gmail.com (Shawn Chen)</managingEditor>
+    <webMaster>cxwshawn@gmail.com (Shawn Chen)</webMaster>
+    <lastBuildDate>Fri, 06 May 2016 21:38:49 +0800</lastBuildDate>
     <atom:link href="http://cxwshawn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
+      <title>beego完美结合hugo</title>
       <link>http://cxwshawn.github.io/post/first/</link>
-      <pubDate>Sun, 01 May 2016 21:50:48 +0800</pubDate>
-      <author>cxwshawn@gmail.com (chen xiaowei)</author>
+      <pubDate>Fri, 06 May 2016 21:38:49 +0800</pubDate>
+      <author>cxwshawn@gmail.com (Shawn Chen)</author>
       <guid>http://cxwshawn.github.io/post/first/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Hello Shawn&lt;/li&gt;
-&lt;/ul&gt;
+      <description>
 
-&lt;p&gt;hahahha
-  jisaodjfoasjf
-  josdjfisdjfiodsjf
-  jisdjfosjdfosjf&lt;/p&gt;
+&lt;h2 id=&#34;beego简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;beego简介&lt;/h2&gt;
+
+&lt;h2 id=&#34;hugo简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;hugo简介&lt;/h2&gt;
+
+&lt;h2 id=&#34;完美结合:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;完美结合&lt;/h2&gt;
 </description>
     </item>
     

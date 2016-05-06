@@ -5,40 +5,69 @@
     <link>http://cxwshawn.github.io/</link>
     <description>Recent content on programming life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ch-zn</language>
-    <managingEditor>cxwshawn@gmail.com (chen xiaowei)</managingEditor>
-    <webMaster>cxwshawn@gmail.com (chen xiaowei)</webMaster>
-    <lastBuildDate>Sun, 01 May 2016 21:50:48 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <managingEditor>cxwshawn@gmail.com (Shawn Chen)</managingEditor>
+    <webMaster>cxwshawn@gmail.com (Shawn Chen)</webMaster>
+    <lastBuildDate>Fri, 06 May 2016 21:38:49 +0800</lastBuildDate>
     <atom:link href="http://cxwshawn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
+      <title>beego完美结合hugo</title>
       <link>http://cxwshawn.github.io/post/first/</link>
-      <pubDate>Sun, 01 May 2016 21:50:48 +0800</pubDate>
-      <author>cxwshawn@gmail.com (chen xiaowei)</author>
+      <pubDate>Fri, 06 May 2016 21:38:49 +0800</pubDate>
+      <author>cxwshawn@gmail.com (Shawn Chen)</author>
       <guid>http://cxwshawn.github.io/post/first/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Hello Shawn&lt;/li&gt;
-&lt;/ul&gt;
+      <description>
 
-&lt;p&gt;hahahha
-  jisaodjfoasjf
-  josdjfisdjfiodsjf
-  jisdjfosjdfosjf&lt;/p&gt;
+&lt;h2 id=&#34;beego简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;beego简介&lt;/h2&gt;
+
+&lt;h2 id=&#34;hugo简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;hugo简介&lt;/h2&gt;
+
+&lt;h2 id=&#34;完美结合:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;完美结合&lt;/h2&gt;
 </description>
     </item>
     
     <item>
-      <title>关于</title>
+      <title>个人简介</title>
       <link>http://cxwshawn.github.io/about/</link>
-      <pubDate>Sun, 01 May 2016 21:50:42 +0800</pubDate>
-      <author>cxwshawn@gmail.com (chen xiaowei)</author>
+      <pubDate>Fri, 06 May 2016 21:30:02 +0800</pubDate>
+      <author>cxwshawn@gmail.com (Shawn Chen)</author>
       <guid>http://cxwshawn.github.io/about/</guid>
-      <description>&lt;p&gt;这个是惊悚的将佛 i 啊是多久佛撒娇东方结束的风景哦三佛&lt;/p&gt;
+      <description>
 
-&lt;p&gt;啊是的风景撒娇的佛 i 结束
-啊是多久佛啊时间佛 i 哦绝对是
-as的飞机哦时间发 i 哦多少&lt;/p&gt;
+&lt;h1 id=&#34;target:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;TARGET&lt;/h1&gt;
+
+&lt;h2 id=&#34;romance1:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Romance1&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main() {
+    printf(&amp;quot;选择自由,过浪漫的生活...\n&amp;quot;);
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;romance2:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Romance2&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
+int main(int argc, char *argv[]) {
+  std::cout &amp;lt;&amp;lt; &amp;quot;努力学习,改变自己!&amp;quot; &amp;lt;&amp;lt; std::endl;
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;romance3:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Romance3&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+import &amp;quot;fmt&amp;quot;
+func main() {
+    fmt.Println(&amp;quot;试着抓住机遇，改变世界！&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;romance4:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Romance4&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;To be continued ...
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
