@@ -115,7 +115,7 @@
               </p>
             
               <div class="post-entry">
-                beego简介 hugo简介 完美结合
+                beego简介 beego入门请参考这里 hugo简介 hugo入门请参考这里 完美结合 到这里我会假设你已经了解了hugo和beego这两个框架的基本作用，那么问题来了，很多情况下我们会遇到类似于kajabi这样的网站需求， 那么参考下面的步骤或许会得到你想要的结果： 生成静态网站 hugo new site sitepath 首先生成你自己的静态网站文件目录 cd sitepath hugo -t yourtheme &ndash;baseurl &ldquo;http://localhost:8080/&quot; 到这儿你就已经拥有了自己的静态网站，且在public文件目录下存放了所有的文件 生成动态App bee new hello 将上面生成的public目录拷贝到hello目录虾米哪 配置hello app.conf中的配置： viewspath = &ldquo;public&rdquo; StaticDir = js:public/js css:public/css img:public/img post/first:public/post/first about:public/about static:static bee run hello启动 用浏览器访问试试看 hugo重新生成public文件目录 hugo -t yourthem -d &ldquo;上面hello/public目录&rdquo; 或者直接hugo -w -t beautifulhugo -d &ldquo;上面hello/public目录&rdquo; 这样每次修改sitepath目录文件时，hugo检测并生成public文件，访问hello网站时都会重新加载hugo最新生成的的public目录文件! 扩展新业务 在静态页面中加入自己的动态业务，这样就可以采用beego提供的MVC框架扩展对应的新业务了 如有问题，请点击下面链接email给我
           	  <a href="http://cxwshawn.github.io/post/first/" class="post-read-more">[Read&nbsp;More]</a>
               </div>
             

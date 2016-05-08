@@ -21,9 +21,53 @@
 
 &lt;h2 id=&#34;beego简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;beego简介&lt;/h2&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;beego入门请参考&lt;a href=&#34;http://beego.me/docs/quickstart/&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h2 id=&#34;hugo简介:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;hugo简介&lt;/h2&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;hugo入门请参考&lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h2 id=&#34;完美结合:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;完美结合&lt;/h2&gt;
+
+&lt;p&gt;到这里我会假设你已经了解了hugo和beego这两个框架的基本作用，那么问题来了，很多情况下我们会遇到类似于&lt;a href=&#34;https://newkajabi.com/&#34;&gt;kajabi&lt;/a&gt;这样的网站需求， 那么参考下面的步骤或许会得到你想要的结果：&lt;/p&gt;
+
+&lt;h3 id=&#34;生成静态网站:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;生成静态网站&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hugo new site sitepath 首先生成你自己的静态网站文件目录&lt;/li&gt;
+&lt;li&gt;cd sitepath&lt;/li&gt;
+&lt;li&gt;hugo -t yourtheme &amp;ndash;baseurl &amp;ldquo;&lt;a href=&#34;http://localhost:8080/&amp;quot;&#34;&gt;http://localhost:8080/&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;到这儿你就已经拥有了自己的静态网站，且在public文件目录下存放了所有的文件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;生成动态app:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;生成动态App&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bee new hello&lt;/li&gt;
+&lt;li&gt;将上面生成的public目录拷贝到hello目录虾米哪&lt;/li&gt;
+&lt;li&gt;配置hello app.conf中的配置：
+viewspath = &amp;ldquo;public&amp;rdquo;
+StaticDir = js:public/js css:public/css img:public/img post/first:public/post/first about:public/about static:static&lt;/li&gt;
+&lt;li&gt;bee run hello启动&lt;/li&gt;
+&lt;li&gt;用浏览器访问试试看&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hugo重新生成public文件目录:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;hugo重新生成public文件目录&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hugo -t yourthem -d &amp;ldquo;上面hello/public目录&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;或者直接hugo -w  -t beautifulhugo -d &amp;ldquo;上面hello/public目录&amp;rdquo; 这样每次修改sitepath目录文件时，hugo检测并生成public文件，访问hello网站时都会重新加载hugo最新生成的的public目录文件!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;扩展新业务:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;扩展新业务&lt;/h3&gt;
+
+&lt;p&gt;在静态页面中加入自己的动态业务，这样就可以采用beego提供的MVC框架扩展对应的新业务了&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;如有问题，请点击下面链接email给我&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
